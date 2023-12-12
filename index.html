@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COP</title>
+
+    <!--============================== Importação javascript carrossel ================================-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!--============================== Importação css =================================================-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--============================== Importação ícones cloudflare ==============================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--============================== Importação ícones boxicons ==============================================-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--============================== Icon barra guia ================================================-->
+    <link rel="shortcut icon" href="img/COP VARIACAO AZUL.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- ================================ Navbar  ====================================== -->
+    <header id="header">
+        
+        <a href="#" class="logo"><img src="img/COP-Oficial-logo.ico" alt=""> Commerce Open Project</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categorias">Categorias</a></li>
+            <li><a href="#quemsomos">Quem somos?</a></li>
+            <li><a href="#faleconosco">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script src="assets/js/menu.js"></script>
+
+
+    <header id="menuprinc">
+            <a href="#" class="logo"><img src="img/COP-Oficial-logo.ico" alt=""> Commerce Open Project</a>
+    
+            <div class="bx bx-menu" id="menu-icon"></div>
+    
+            
+            <ul class="navbar">
+                <button class="btn-mobile">  <span id="hamburger"></span> </button>
+                <li><a href="#home" class="home-active">Home</a></li>
+                <li><a href="#categorias">Categorias</a>
+                    <ul>
+                        <li><a href="listaalimentacao.html">Alimentação</a></li>
+                        <li><a href="listaanimais.html">Animais</a></li>
+                        <li><a href="listabares.html">Bares & Adegas</a></li>
+                        <li><a href="listaconstrucao.html">Construção</a></li>
+                        <li><a href="listaestetica.html">Estética</a></li>
+                        <li><a href="listainformatica.html">Informática</a></li>
+                        <li><a href="listamercado.html">Mercado</a></li>
+                        <li><a href="listasaude.html">Saúde</a></li>
+                        <li><a href="listaveiculo.html">Veículos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#quemsomos" >Quem somos?</a></li>
+                <li><a href="#faleconosco" >Contato</a></li>
+            </ul>
+        </header>
+
+    <!-- ================================ Título Menu  ====================================== -->
+    <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+            <div class="home__data">
+                <h1 class="home__title">C.O.P - Commerce Open Project</h1>
+                <h2 class="home__subtitle">A sua plataforma com melhores comércios da Cohab Raposo Tavares</h2>
+                <button class="popup-button" type="submit" onclick="handlePopup(true)">
+                    Apoie nosso Projeto
+                </button>
+                <div class="popup" id="popup">
+                    <img src="img/qrcodepix.jpeg" alt="warning">
+    
+                    <h2 class="title">QRCode PIX</h2>
+    
+                    <p class="desc">Obrigado por colaborar neste projeto!</p>
+    
+                    <button class="close-popup-button" type="submit" onclick="handlePopup(false)">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+            <img src="img/Arte - C.O.P.png" alt="" class="home__img">
+        </div>
+    </section>
+    
+    <!--=========================== CARROSSEL ==============================-->
+    <section id="tranding">
+      <div class="container1">
+        <!--<h3 class="text-center section-subheading">- popular Delivery -</h3>-->
+        <h1 class="text-center section-heading">Destaques da <span class="titulo-carrossel">semana</span></h1>
+      </div>
+      <div class="container1">
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/propaganda1.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+               
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/propaganda2.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/propaganda3.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+               
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/propaganda4.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/propaganda5.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+            
+              </div>
+            </div>
+            <!-- Slide-end -->
+            <!-- Slide-start -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="img/propagandas6.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+  
+              </div>
+            </div>
+            <!-- Slide-end -->
+          </div>
+
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================================ Categorias  ====================================== -->
+    <section class="categorias" id="categorias">
+        <div class="heading">
+            <h1>Nossas categorias</h1>
+        </div>
+
+        <!--Categorias Conteúdo-->
+        <div class="categorias-container">
+
+            <!--Box 1-->
+            <div class="box">
+                <img src="img/alimentacao.png" alt="">
+                <center><button class="botao-box"><a href="listaalimentacao.html" h1 class="titulo-box">Alimentação</h1></button></center></a>
+            </div>
+
+            <!--Box 2-->
+            <div class="box">
+                <img src="img/animais.png" alt="">
+                <center><button class="botao-box"><a href="listaanimais.html" h1 class="titulo-box">Animais</h1></button></center></a>
+            </div>
+
+            <!--Box 3-->
+            <div class="box">
+                <img src="img/bareseadegas.png" alt="">
+                <center><button class="botao-box"><a href="listabares.html" h1 class="titulo-box">Bares & Adegas</h1></button></center></a>
+            </div>
+
+            <!--Box 4-->
+            <div class="box">
+                <img src="img/construcao.png" alt="">
+                <h1 class="titulo-box">Construção</h1>
+                <center><button class="botao-box"><a href="listaconstrucao.html" h1 class="titulo-box">Construção</h1></button></center></a>
+            </div>
+
+            <!--Box 5-->
+            <div class="box">
+                <img src="img/estetica.png" alt="">
+                <h1 class="titulo-box">Estética</h1>
+                <center><button class="botao-box"><a href="listaestetica.html" h1 class="titulo-box">Estética</h1></button></center></a>
+            </div>
+            <!--Box 6-->
+            <div class="box">
+                <img src="img/informatica.png" alt="">
+                <h1 class="titulo-box">Informática</h1>
+                <center><button class="botao-box"><a href="listainformatica.html" h1 class="titulo-box">Informática</h1></button></center></a>
+            </div>
+
+            <!--Box 7-->
+            <div class="box">
+                <img src="img/mercado.png" alt="">
+                <h1 class="titulo-box">Mercado</h1>
+                <center><button class="botao-box"><a href="listamercado.html" h1 class="titulo-box">Mercado</h1></button></center></a>
+            </div>
+
+            <!--Box 8-->
+            <div class="box">
+                <img src="img/saude.png" alt="">
+                <h1 class="titulo-box">Saúde</h1>
+                <center><button class="botao-box"><a href="listasaude.html" h1 class="titulo-box">Saúde</h1></button></center></a>
+            </div>
+
+            <!--Box 9-->
+            <div class="box">
+                <img src="img/veiculos.png" alt="">
+                <h1 class="titulo-box">Veículos</h1>
+                <center><button class="botao-box"><a href="listaveiculo.html" h1 class="titulo-box">Veículos</h1></button></center></a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ================================ Quem somos ====================================== -->
+    <section class="quemsomos" id="quemsomos">
+        <img src="img/COP Oficial logo.png" alt="">
+        <div class="quemsomos-text">
+            <h1>Quem somos?</h1>
+            <p>Somos um grupo de estudantes da ETEC Raposo Tavares que está desenvolvendo o Trabalho de Conclusão de Curso (TCC). </p>
+            <p>Pretendemos com essa plataforma, juntar os melhores comércios da Cohab Raposo Tavares em um único local.</p>
+            <a href="https://www.linkedin.com/in/commerce-o-project-a4214b298/" class="btn">Veja Mais<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+    </section>
+
+
+    <!-- ================================ Fale Conosco ====================================== -->
+    <section class="faleconosco" id="faleconosco">
+        <form action="https://formsubmit.co/commerceopenproject0@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5502/pgobrigado.html">
+        <div class="fale-container">
+            <div class="contactinfo">
+                <div>
+                    <h2>Informações de Contato</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="img/icone email.png" alt=""></span>
+                            <span>
+                                commerceopenproject0@gmail.com
+                            </span>
+                        </li>
+                        <li>
+                            <span><img src="img/cronometro (1).png" alt=""></span>
+                            <span>
+                                Segunda a Sexta <br/>
+                                Horário de Funcionamento: 8:00 a 17:00
+                            </span>
+                        </li>
+                        <li>
+                            <span><img src="img/instagram.png" alt=""></span>
+                            <span>
+                                @commerce.open
+                            </span>
+                        </li>
+                        <li>
+                            <span><img src="img/linkedin.png" alt=""></span>
+                            <span>
+                                Commerce O. Project
+                            </span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="contactform">
+                <h2>Envie uma mensagem</h2>
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="Nome" required>
+                        <span>Primeiro Nome</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="Sobrenome" required>
+                        <span>Sobrenome</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="email"  name="email" placeholder="Email">
+                        <span>Endereço de E-mail</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="Número" required>
+                        <span>Número de Celular</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea name="Mensagem" required></textarea>
+                        <span>Escreva sua mensagem aqui...</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </section>
+
+    <!-- ================================ Footer  ====================================== -->
+     <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>C.O.P</h1>
+                <p>Commerce Open Project</p>
+
+                <div id="footer_social_media">
+                    <a href="https://instagram.com/commerce.open?igshid=NGVhN2U2NjQ0Yg==" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://linktr.ee/projectopencommerce?utm_source=linktree_admin_share" class="footer-link" id="linktree">
+                        <i class="fa-solid fa-link"></i>
+                    </a>
+
+                    <a href="mailto:commerceopenproject0@gmail.com" class="footer-link" id="email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+                <br/>
+                <br/>
+                <p>Vire um apoiador</p>
+                <br/>
+                <img src="img/qrcodepix.jpeg" alt="" class="qrcodepix">
+                
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Categorias</h3>
+                </li>
+                <li>
+                    <a href="listaalimentacao.html" class="footer-link">Alimentação</a>
+                </li>
+                <li>
+                    <a href="listaanimais.html" class="footer-link">Animais</a>
+                </li>
+                <li>
+                    <a href="listabares.html" class="footer-link">Bares & Adegas</a>
+                </li>
+                <li>
+                    <a href="listaconstrucao.html" class="footer-link">Construção</a>
+                </li>
+                <li>
+                    <a href="listaestetica.html" class="footer-link">Estética</a>
+                </li>
+                <li>
+                    <a href="listainformatica.html" class="footer-link">Informática</a>
+                </li>
+                <li>
+                    <a href="listamercado.html" class="footer-link">Mercado</a>
+                </li>
+                <li>
+                    <a href="listasaude.html" class="footer-link">Saúde</a>
+                </li>
+                <li>
+                    <a href="listaveiculo.html" class="footer-link">Veículos</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Quem somos?</h3>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/commerce-o-project-a4214b298/" class="footer-link">Conheça nosso Linkedin</a>
+                    <img src="img/COP - OFICIAL - VARIACAO BRANCA.png" alt="">
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Fale Conosco</h3>
+                </li>
+                <li>
+                    <span>Instagram: </span><a href="https://instagram.com/commerce.open?igshid=NGVhN2U2NjQ0Yg==" class="footer-link">@commerce.open</a>
+                </li>
+                <li>
+                    <span>E-mail: </span><a href="mailto:commerceopenproject0@gmail.com" class="footer-link">commerceopenproject0@gmail.com</a>
+                </li>
+                <li>
+                  <span>Linkedin </span><a href="https://www.linkedin.com/in/commerce-o-project-a4214b298/" class="footer-link">Commerce O Project</a>
+              </li>
+            </ul>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 todos os direitos reservados
+        </div>
+    </footer>
+
+    <!-- ================================ Swiper JS  ====================================== -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jspix.js"></script>
+
+</body>
+</html>
